@@ -30,20 +30,20 @@ Users should be able to:
 - Play Rock, Paper, Scissors, Lizard, Spock against the computer 
 
 
-
-### Screenshots
+## Screenshots
 
 These are the screenshots of the Rock, Paper, Scissors game, showcasing both mobile and desktop responsive designs:
 
-![Screenshot 1](Screenshot/Screenshot1.jpg)
-![Screenshot 2](Screenshot/Screenshot2.jpg)
-![Screenshot 3](Screenshot/Screenshot3.jpg)
-![Screenshot 4](Screenshot/Screenshot4.jpg)
-![Screenshot 5](Screenshot/Screenshot5.jpg)
-![Screenshot 6](Screenshot/Screenshot6.jpg)
-![Screenshot 7](Screenshot/Screenshot7.jpg)
-![Screenshot 8](Screenshot/Screenshot8.jpg)
-![Screenshot 9](Screenshot/Screenshot9.jpg)
+![Screenshot 1](Screenshots/Screenshot1.png)
+![Screenshot 2](Screenshots/Screenshot2.png)
+![Screenshot 3](Screenshots/Screenshot3.png)
+![Screenshot 4](Screenshots/Screenshot4.png)
+![Screenshot 5](Screenshots/Screenshot5.png)
+![Screenshot 6](Screenshots/Screenshot6.png)
+![Screenshot 7](Screenshots/Screenshot7.png)
+![Screenshot 8](Screenshots/Screenshot8.png)
+![Screenshot 9](Screenshots/Screenshot9.png)
+
 
 
 
