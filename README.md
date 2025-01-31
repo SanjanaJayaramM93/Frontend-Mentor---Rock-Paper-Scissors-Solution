@@ -53,7 +53,7 @@ These are the screenshots of the Rock, Paper, Scissors game, showcasing both mob
 
 
 - Solution URL: [GitHub Repository](https://github.com/SanjanaJayaramM93/Frontend-Mentor---Rock-Paper-Scissors-Solution.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://sanjanajayaramm93.github.io/Frontend-Mentor---Rock-Paper-Scissors-Solution/)
 
 
 ## My process
