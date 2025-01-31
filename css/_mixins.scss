@@ -1,0 +1,48 @@
+@use 'variables'; // Ensure this line is present at the top
+
+@mixin background($property) {
+  border-radius: 100%;
+  //padding: 15px;
+  position: absolute;
+  cursor: pointer;
+  width: 120px;
+  height: 120px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 0 rgba(49, 48, 48, 0.2); 
+  transition: transform 0.2s ease;
+
+  // Zoom effect on hover without moving from position
+  &:hover {
+   
+    z-index: 1; // Bring the zoomed icon to the front
+  }
+
+  @if $property == scissors {
+    background: variables.$scissors-gradient;
+    top: 0; // Top vertex of the pentagon
+    left: 50%;
+    transform: translate(-50%, 0); // Center the icon horizontally in the pentagon
+  } @else if $property == paper {
+    background: variables.$paper-gradient;
+    top: 20%; // Upper-right vertex
+    right: 0;
+    transform: translate(50%, 0); // Center the icon vertically in the pentagon
+  } @else if $property == rock {
+    background: variables.$rock-gradient;
+    bottom: 0; // Bottom vertex
+    left: 50%;
+    transform: translate(-50%, 0); // Center the icon horizontally in the pentagon
+  } @else if $property == lizard {
+    background: variables.$lizard-gradient;
+    bottom: 20%; // Lower-left vertex
+    left: 0;
+    transform: translate(-50%, 0); // Center the icon vertically in the pentagon
+  } @else if $property == spock {
+    background: variables.$spock-gradient;
+    top: 20%; // Upper-left vertex
+    left: 0;
+    transform: translate(-50%, 0); // Center the icon horizontally in the pentagon
+  }
+}

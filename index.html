@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Rock, Paper, Scissors, Lizard, Spock</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <section id="head">
+      <img src="./images/logo-bonus.svg" alt="Rock, Paper, Scissors, Lizard, Spock Logo" />
+      <div class="points-container">
+        <p>Score</p>
+        <h1 class="points" id="score-value">0</h1>
+      </div>
+    </section>
+  </header>
+
+  <!-- Main Game Section -->
+  <main>
+    <section id="body">
+      <!-- Pentagon Background -->
+      <img src="./images/bg-pentagon.svg" alt="Pentagon Background" class="pentagon-bg" />
+
+      <!-- Game Items -->
+      <div class="outer-container outer-container--scissors" data-choice="scissors">
+        <div class="inner-container inner-container--scissors">
+          <img src="./images/icon-scissors.svg" alt="Scissors" />
+        </div>
+      </div>
+
+      <div class="outer-container outer-container--paper" data-choice="paper">
+        <div class="inner-container inner-container--paper">
+          <img src="./images/icon-paper.svg" alt="Paper" />
+        </div>
+      </div>
+
+      <div class="outer-container outer-container--rock" data-choice="rock">
+        <div class="inner-container inner-container--rock">
+          <img src="./images/icon-rock.svg" alt="Rock" />
+        </div>
+      </div>
+
+      <div class="outer-container outer-container--lizard" data-choice="lizard">
+        <div class="inner-container inner-container--lizard">
+          <img src="./images/icon-lizard.svg" alt="Lizard" />
+        </div>
+      </div>
+
+      <div class="outer-container outer-container--spock" data-choice="spock">
+        <div class="inner-container inner-container--spock">
+          <img src="./images/icon-spock.svg" alt="Spock" />
+        </div>
+      </div>
+    </section>
+
+<!-- Result Section (Hidden Initially) -->
+<div class="result-section hidden">
+  <div class="userPicked">
+    <h2>You Picked</h2>
+    <div class="choice-display">
+      <div class="result-icon-container">
+        <img id="user-choice-icon" src="" alt="Your choice" />
+      </div>
+    </div>
+  </div>
+  <div class="winnerLoserContainer">
+    <h1 id="outcome" class="hidden"></h1> <!-- Initially hidden -->
+    <button id="play-again" class="hidden">Play Again</button> <!-- Initially hidden -->
+  </div>
+  <div class="computerPicked">
+    <h2>The House Picked</h2>
+    <div class="choice-display">
+      <div class="result-icon-container">
+        <img id="computer-choice-icon" src="" alt="House choice" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+    <!-- Rules Button -->
+    <button id="rules-btn" aria-label="View game rules">Rules</button>
+
+    <!-- Overlay (Hidden Initially) -->
+    <div class="overlay hidden"></div>
+
+    <!-- Rules Modal (Hidden Initially) -->
+    <div class="rules-modal hidden">
+      <div class="modal-content">
+        <div class="hd">
+          <h2 class="rules-text" >Rules</h2>
+          <img src="./images/icon-close.svg" alt="Close modal" id="close-modal" class="iconClose" />
+        </div>
+        <img src="./images/image-rules-bonus.svg" alt="Game Rules">
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer Section -->
+  <footer>
+    <!-- Attribution -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/SanjanaJayaramM93" target="_blank" rel="noopener noreferrer">Sanjana Jayaram Mottemmal</a>.
+
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
